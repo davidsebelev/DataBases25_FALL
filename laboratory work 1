@@ -109,8 +109,14 @@ Build an ER diagram.
 - **1NF**: all attributes atomic, no repeating groups.  
 - **2NF**: non-key attributes depend on the whole PK.  
 - **3NF**: no transitive dependencies (separate tables for changes, checks, baggage).  
-
-
+---
+## 📌 Legend
+0..1 means zero or one relation is unnecessary
+1-> only one realation to the entity
+*-> many raleations to the entity
+PK - primary key
+FK - foreign key
+U - unique key
 ---
 
 ## 📌 Conclusion
